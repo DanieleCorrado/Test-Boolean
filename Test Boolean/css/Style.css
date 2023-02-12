@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Immagine di background del sito*/
+body{
+  background-image: url("../Immagini/background.jpg");
+  background-size:cover;
+}
+
+/* Impostazioni del div principlale del body*/
+body > div {
+  width: 60%;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+/* Impostazioni logo header*/
+header > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+/* Impostazioni testo header*/
+header > h1 {
+  margin-bottom: 1%;
+  margin-top: 1%;
+  text-align: center;
+  color: lime;
+}
+
+/* Impostazioni del nav dell'header*/
+header > nav {
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: lime;
+}
+
+/* Impostazioni della section del nav dell'header*/
+nav > section {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  margin-left: 30%;
+}
+
+/* Impostazioni dei div presenti nel main*/
+main > div {
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+/* Inserimento dell'icona freccia verso destra all'inizio della seconoda riga*/
+div.Second-Row > span:before{
+  content: "\21A6";
+  color: white;
+}
+
+div  strong, span, h4{
+  color: white;
+}
+
+/* Posizionamento percentuale batteria*/
+div.Second-Row > div {
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* Impostazione dei colori che indicano la percentuale di carica del veicolo*/
+.Full-charge {
+  background-color: green;
+  margin-right: 50%;
+}
+
+.Half-charge {
+  background-color: orange;
+  margin-right: 75%;
+}
+
+.Low-charge {
+  background-color: red;
+  margin-right: 90%;
+}
